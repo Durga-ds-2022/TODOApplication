@@ -27,4 +27,8 @@ def update_todo(request):
         todo_obj.save()
     except Exception as e:
         print(e)
-    return redirect('home')     
+    return redirect('home') 
+
+
+def testing(request):
+        pass    
